@@ -58,6 +58,7 @@
   align-items: center;
   margin: 17px;
   border-radius: 5px;
+  padding: 10px;
 }
 .a3{
   background-color: indigo;
@@ -74,4 +75,9 @@
   color: black;
   border-radius: 10px;
   text-decoration: none;
+}
+@media (max-width: 767px) and (max-width:991px){
+.p div{
+  scale: 90%;
+}
 }
